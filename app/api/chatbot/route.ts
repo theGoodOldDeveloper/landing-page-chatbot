@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
-import cookie from 'cookie';
+import * as cookie from 'cookie';
+
 
 export async function POST(req: Request) {
   const cookies = cookie.parse(req.headers.get('cookie') || '');
