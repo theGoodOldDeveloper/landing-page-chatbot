@@ -1,10 +1,14 @@
 {
-  "hero_title": "Coming soon 😊",
-  "hero_subtitle": "Coming soon 😊",
-  "hero_button": "Coming soon 😊",
-  "cards_title": "Coming soon 😊",
+  "hero_title": "Chatbotok, amik a vásárlóid nyelvén szólnak — éjjel-nappal.",
+  "hero_subtitle": "Vond be az ügyfeleket, automatizáld a beszélgetéseket és növeld a vállalkozásodat — mindezt intelligens AI chatbotokkal.",
+  "hero_button": "Próbáld ki a demó chatbotot",
+  "cards_title": "Miért van szükséged egy chatbotra?",
   "cards_points": [
-    "Coming soon 😊"
+    "Elérhető 24/7 — Soha ne hagyj ki egy ügyfelet sem",
+    "Azonnali, pontos és hasznos válaszok",
+    "Növeld az eladásokat irányított segítséggel",
+    "Takaríts meg időt és költségeket automatizálással",
+    "Tedd boldoggá az ügyfeleket gyors kiszolgálással"
   ],
-  "footer_text": "Coming soon 😊"
+  "footer_text": "© 2025 The Good Old Developer. Minden jog fenntartva."
 }

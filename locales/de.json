@@ -1,10 +1,14 @@
 {
-  "hero_title": "Coming soon 😊",
-  "hero_subtitle": "Coming soon 😊",
-  "hero_button": "Coming soon 😊",
-  "cards_title": "Coming soon 😊",
+  "hero_title": "Chatbots, die die Sprache Ihrer Kunden sprechen — rund um die Uhr.",
+  "hero_subtitle": "Kunden einbinden, Gespräche automatisieren und Ihr Geschäft ausbauen — alles mit intelligenten KI-Chatbots.",
+  "hero_button": "Testen Sie den Demo-Chatbot",
+  "cards_title": "Warum brauchen Sie einen Chatbot?",
   "cards_points": [
-    "Coming soon 😊"
+    "24/7 verfügbar — Verpassen Sie nie einen Kunden",
+    "Sofortige, präzise und hilfreiche Antworten",
+    "Steigern Sie den Umsatz mit geführter Unterstützung",
+    "Sparen Sie Zeit und Kosten durch Automatisierung",
+    "Machen Sie Ihre Kunden mit schnellem Service glücklich"
   ],
-  "footer_text": "Coming soon 😊"
+  "footer_text": "© 2025 The Good Old Developer. Alle Rechte vorbehalten."
 }
