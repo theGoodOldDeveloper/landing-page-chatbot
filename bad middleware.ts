@@ -6,6 +6,17 @@ export function middleware(req: NextRequest) {
 
   console.log("Middleware fut:", pathname);
 
+  // Ha Flowise embed kérés vagy statikus fájl, ne irányítsunk át
+  if (
+    pathname.includes('/flowise') || 
+    pathname.includes('/chatbot') ||
+    pathname.includes('/_next') ||
+    pathname.includes('/static') ||
+    pathname.includes('/api')
+  ) {
+    return NextResponse.next();
+  }
+
   // Ha nincs nyelvi paraméter az URL-ben, átirányít az /en útvonalra
   if (!pathname.match(/^\/(en|hu|fr|de)(\/|$)/)) {
     console.log("Átirányítás történik:", `/en${pathname}`);
