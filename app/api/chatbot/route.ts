@@ -5,7 +5,7 @@ import * as cookie from 'cookie';
 export async function POST(req: Request) {
   const cookies = cookie.parse(req.headers.get('cookie') || '');
   let count = parseInt(cookies.chatbot_questions || '0');
-  const limit = parseInt(process.env.CHATBOT_LIMIT || '5');
+  const limit = parseInt(process.env.CHATBOT_LIMIT || '2');
 
   if (count >= limit) {
     return NextResponse.json({ error: 'Limit reached' }, { status: 403 });
