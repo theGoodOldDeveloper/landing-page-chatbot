@@ -71,7 +71,7 @@ export default function FlowiseEmbed({ lang }: { lang: string }) {
             title: 'Flowise Bot',
             titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
             welcomeMessage: 'Hello! This is a custom welcome message',
-            errorMessage: 'This is a custom error message',
+            errorMessage: 'You have reached the test mode limit!',
             backgroundColor: '#ffffff',
             backgroundImage: '',
             height: 700,
