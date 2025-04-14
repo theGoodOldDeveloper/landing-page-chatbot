@@ -68,7 +68,7 @@ export default function FlowiseEmbed({ lang }: { lang: string }) {
           chatWindow: {
             showTitle: true,
             showAgentMessages: true,
-            title: 'Flowise Bot',
+            title: 'ONLY🚨2 QUESTIONS!',
             titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
             welcomeMessage: 'Hello! This is a custom welcome message',
             errorMessage: 'You have reached the test mode limit!',
